@@ -1,0 +1,13 @@
+hello_world.content:
+  path: '/hello'
+  defaults:
+    _controller: Drupal\hello_world\Controller\HelloWorldController::hello
+  requirements:
+    _permission: 'access content'
+
+hello_world.news:
+  path: '/news'
+  defaults:
+    _controller: Drupal\hello_world\Controller\HelloWorldController::news
+  requirements:
+    _permission: 'access content'

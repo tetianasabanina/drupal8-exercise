@@ -1,0 +1,15 @@
+demo1.uutiset:
+  path: '/demot/demo1'
+  defaults:
+    _controller: Drupal\demo1\Controller\Demo1Controller::uutiset
+    _title: 'Uutiset kontrollerin otsikko'
+  requirements:
+    _permission: 'access content'
+
+demo1.portfolio:
+  path: '/demot/demo2'
+  defaults:
+    _controller: Drupal\demo1\Controller\Demo1Controller::portfolio
+    _title: 'Portfolio kontrollerin otsikko'
+  requirements:
+    _permission: 'access content'
