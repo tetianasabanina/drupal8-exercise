@@ -2,13 +2,13 @@ demo1.newpage:
   title: 'Uutiset'
   description: 'Tästä pääsee lukemaan uutisia'
   route_name: demo1.uutiset
-  weight: 12
+  weight: 10
   menu_name: main
 
  demo1.newpage2:
   title: 'Portfolio'
   description: 'Tästä pääsee tarkistamaan portfolion'
   route_name: demo1.portfolio
-  weight: 13
+  weight: 11
   menu_name: main 
 

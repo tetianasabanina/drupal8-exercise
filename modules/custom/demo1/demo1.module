@@ -1,0 +1,17 @@
+<?php
+/**
+ *  hook_help() implements
+ */
+
+ function demo1_help($route_name, \Drupal\Core\Routing\RouteMatchInterface $route_match) {
+     switch ($route_name) {
+         case 'help.page.demo1':
+            $output = '';
+            $output .= '<h3> Tietoa moduulista <h3>';
+            $output .= '<p> Tämä on demo-moduuli <p>';
+            return $output;
+        default:
+     }
+ }
+
+?>

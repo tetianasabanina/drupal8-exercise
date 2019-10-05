@@ -1,0 +1,28 @@
+oma_moduuli_1.haku:
+  path: '/haku'
+  defaults:
+    _controller: 'Drupal\oma_moduuli_1\Controller\OmaModuuli1Controller::haku'
+  requirements:
+    _permission: 'access content'
+
+oma_moduuli_1.post:
+  path: '/post'
+  defaults:
+    _controller: 'Drupal\oma_moduuli_1\Controller\OmaModuuli1Controller::post'
+  requirements:
+    _permission: 'access content'
+
+oma_moduuli_1.cv:
+  path: '/cv'
+  defaults:
+    _controller: 'Drupal\oma_moduuli_1\Controller\OmaModuuli1Controller::cv'
+  requirements:
+    _permission: 'access content'
+
+oma_moduuli_1.contact1:
+  path: '/contact1'
+  defaults:
+    _controller: 'Drupal\oma_moduuli_1\Controller\OmaModuuli1Controller::contact1'
+  requirements:
+    _permission: 'access content'
+

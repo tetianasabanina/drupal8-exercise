@@ -1,0 +1,5 @@
+name: Oma Moduuli 1
+description: 'Lisää valikkoon valinnat'
+package: Custom
+type: module
+core: '8.x'

@@ -1,0 +1,27 @@
+oma_moduuli_1.haku:
+  title: 'Hakemus'
+  description: 'Näytä hakemus-tekstin'
+  route_name: oma_moduuli_1.haku
+  weight: 10
+  menu_name: main
+
+oma_moduuli_1.post:
+  title: 'Kustannustehokasta työskentelyä'
+  description: 'Näytä valinnan tekstin'
+  route_name: oma_moduuli_1.post
+  weight: 11
+  menu_name: main
+
+oma_moduuli_1.cv:
+  title: 'CV'
+  description: 'Näytä valinnan tekstin'
+  route_name: oma_moduuli_1.cv
+  weight: 12
+  menu_name: main
+
+oma_moduuli_1.contact1:
+  title: 'Yhteystiedot'
+  description: 'Näytä valinnan tekstin'
+  route_name: oma_moduuli_1.contact1
+  weight: 13
+  menu_name: main

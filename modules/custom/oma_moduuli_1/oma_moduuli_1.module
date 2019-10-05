@@ -1,0 +1,17 @@
+<?php 
+/**
+ *  hook_help() implements
+ */
+
+function oma_moduuli_1__help($route_name, \Drupal\Core\Routing\RouteMatchInterface $route_match) {
+    switch($route_name) {
+        case 'help.page.oma_moduuli_1':
+            $output = '';
+            $output .= '<h3> Tietoa moduulista </h3>';
+            $output .= '<p> Tämä on Jaakko Virtasen Työhaku-moduli, sisältä työhakemuksen, CV:n, esse:n ja yhteystiedot. </p>';
+            return $output;
+        default: 
+    }
+}
+
+?>
