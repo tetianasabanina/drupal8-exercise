@@ -1,17 +1,18 @@
 <?php
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
 /**
- *  hook_help() implements
+ * hook_form_Alter() implements.
  */
 
- function demo1_help($route_name, \Drupal\Core\Routing\RouteMatchInterface $route_match) {
-     switch ($route_name) {
-         case 'help.page.demo1':
-            $output = '';
-            $output .= '<h3> Tietoa moduulista <h3>';
-            $output .= '<p> Tämä on demo-moduuli <p>';
-            return $output;
-        default:
-     }
+ function demo1_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id){
+    if($form_id == 'comment_comment_form'){
+        //add placeholder subject
+        $form['subject']['widget']['0']['value']['#attributes']['placeholder'] = t('Syöta aihe');
+        $form['actions']['submit']['#value'] = 'Kommentoi';
+    }
+    
  }
 
 ?>
