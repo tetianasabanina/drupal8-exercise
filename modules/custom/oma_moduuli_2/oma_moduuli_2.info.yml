@@ -1,0 +1,5 @@
+name: Oma Moduuli 2
+description: 'Lisäharjoitus 2'
+package: Custom
+type: module
+core: 8.x

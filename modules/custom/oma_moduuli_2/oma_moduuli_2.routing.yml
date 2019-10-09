@@ -1,0 +1,8 @@
+oma_moduuli_2.lista:
+  path: '/oma_moduuli_2/omalista'
+  defaults:
+    _controller: '\Drupal\oma_moduuli_2\Controller\OmaModuuli2Controller::generoiLista'
+    _title: 'Lista hedelmistä'
+  requirements:
+    _permission: 'access content'
+    
